@@ -10,15 +10,17 @@
     />
     <div class="container">
       <Sidebar />
+      <Contacts />
     </div>
   </div>
 </template>
 
 <script>
 import Sidebar from "@/components/Sidebar.vue";
+import Contacts from "@/components/Contacts.vue";
 export default {
   name: "App",
-  components: { Sidebar },
+  components: { Sidebar, Contacts },
 };
 </script>
 
